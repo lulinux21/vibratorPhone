@@ -5,13 +5,10 @@
   </head>
   <body>
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+   <button onclick="startPattern()">Click me</button>
 
   </body>
-  <script>
-    
-      
+  <script>      
       function startPattern() {
         // Values at even indices (0, 2, 4, ...) specify vibrations, while the odd
         // indices specify pauses.
@@ -19,7 +16,5 @@
         alert("Aiiiii que delícia")
         navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
       }
-
-      startPattern();
   </script>
 </html>
